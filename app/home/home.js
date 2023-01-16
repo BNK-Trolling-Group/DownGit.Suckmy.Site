@@ -1,6 +1,7 @@
 /***********************************************************
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
-* Website: https://github.com/MinhasKamal/DownGit          *
+* Changed By: BNK (Owner @ BTG)                            *
+* Website: https://suckmy.site/bnk                         *
 * License: MIT License                                     *
 ***********************************************************/
 
@@ -32,7 +33,7 @@ homeModule.config([
 
                     var templateUrl = "https?://github.com/.+/.+";
                     var downloadUrlInfix = "#/home?url=";
-                    var downloadUrlPrefix = "https://downgit.github.io/"+downloadUrlInfix;
+                    var downloadUrlPrefix = "https://upgit.suckmy.site/"+downloadUrlInfix;
 
                     if ($routeParams.url) {
                         $scope.url = $routeParams.url;
