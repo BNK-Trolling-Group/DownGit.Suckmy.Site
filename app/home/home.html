@@ -1,15 +1,82 @@
-<div class="home">
+<html data-darkreader-mode="static"><head><style id="dark-reader-style" class="darkreader" type="text/css">/* Common theme */
+html,
+body,
+:not([style*="background-color:"]):not(iframe) {
+    background-color: rgb(19, 19, 19) !important;
+}
+html,
+body,
+:not([style*="color:"]),
+.sr-reader *:not([class*='sr-pivot']) {
+    color: rgb(159, 159, 159) !important;
+}
+h1:not([style*="color:"]),
+h2:not([style*="color:"]),
+h3:not([style*="color:"]),
+h4:not([style*="color:"]),
+h5:not([style*="color:"]),
+h6:not([style*="color:"]) {
+    color: rgb(161, 161, 161) !important;
+}
+cite:not([style*="color:"]) {
+    color: rgb(184, 184, 184) !important;
+}
+input:not([style*="background-color:"]),
+textarea:not([style*="background-color:"]),
+button:not([style*="background-color:"]),
+[role="button"] {
+    background-color: rgb(46, 46, 46) !important;
+}
+input:not([style*="background-color:"]):hover,
+textarea:not([style*="background-color:"]):hover,
+button:not([style*="background-color:"]):hover,
+[role="button"]:hover {
+    background-color: rgb(43, 52, 62) !important;
+}
+input:not([style*="background-color:"]):active, input:not([style*="background-color:"]):focus,
+textarea:not([style*="background-color:"]):active, textarea:not([style*="background-color:"]):focus,
+button:not([style*="background-color:"]):active, button:not([style*="background-color:"]):focus,
+[role="button"]:active, [role="button"]:focus {
+    background-color: rgb(41, 54, 67) !important;
+}
+a:not([style*="color:"]) {
+    color: rgb(172, 172, 172) !important;
+}
+a:not([style*="color:"]):hover {
+    color: rgb(175, 185, 193) !important;
+}
+a:not([style*="color:"]):active, a:not([style*="color:"]):focus {
+    color: rgb(177, 198, 214) !important;
+}
+:not([style*="border-color:"]),
+::before,
+::after {
+    border-color: rgb(109, 109, 109) !important;
+}
+div:empty,
+.sr-reader *,
+.sr-backdrop {
+    background-color: rgba(19, 19, 19, 0.5) !important;
+}
+input::placeholder,
+textarea::placeholder {
+    color: rgba(159, 159, 159, 0.5) !important;
+}
+input:not([style*="background-image:"]),
+textarea:not([style*="background-image:"]) {
+    background-image: none !important;
+}</style></head><body><div class="home">
 <div class="text-center">
 
     <div class="vertical-space"></div>
-    <h1><a href="https://downgit.github.io/#/">DownGit</a></h1>
+    <h1><a href="https://upgit.suckmy.site/#/">UPGit</a></h1>
     <div class="center-row"></div>
     <h4>Create GitHub Resource Download Link</h4>
     
     
     <div class="vertical-space"></div>
     <div class="col-md-6 center-row">
-        <input name="url" type="url" placeholder="GitHub File or Directory Link" class="form-control" ng-model="url" ng-keypress="catchEnter($event)"></input>
+        <input name="url" type="url" placeholder="GitHub File or Directory Link" class="form-control" ng-model="url" ng-keypress="catchEnter($event)">
     </div>
     <div class="btn-group center-row">
         <button type="button" class="btn btn-default" ng-click="createDownLink()">Create Download Link</button>
@@ -19,22 +86,23 @@
     
     <div ng-show="isProcessing.val">
         <div class="vertical-space"></div>
-        <img class="processing-img" src="res/images/processing.gif" />
+        <img class="processing-img" src="res/images/processing.gif">
         <p>Downloaded {{downloadedFiles.val}} of {{totalFiles.val}} files</p>
     </div>
     
     
     <div class="col-md-6 center-row" ng-show="downUrl">
         <div class="vertical-space"></div>
-        <textarea class="form-control download-link-box" ng-model="downUrl" ></textarea>
+        <textarea class="form-control download-link-box" ng-model="downUrl"></textarea>
     </div>
     
     <div class="vertical-space"></div>
     <div class="footer">
-        <a class="donate-button" target="_blank" href="https://www.paypal.com/donate/?business=5KR6BA9MYTM62&no_recurring=0&currency_code=USD">Donate to The Project</a>
+        <a class="donate-button" target="_blank" href="https://www.paypal.com/donate/?business=5KR6BA9MYTM62&amp;no_recurring=0&amp;currency_code=USD">Donate to The Project</a>
         <div class="vertical-space"></div>
         <a target="_blank" href="https://github.com/BNK-Trolling-Group/UPGit.SuckMy.Site">UPGit</a> by <a target="_blank" href="https://github.com/BNK-Trolling-Group">Minhas Kamal</a>
     </div>
     
 </div>
 </div>
+</body></html>
