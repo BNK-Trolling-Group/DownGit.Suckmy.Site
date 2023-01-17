@@ -10,7 +10,7 @@ With this tool you can directly download or create download link to any GitHub *
 
 ### How to Use?
 
-<table><tr><td> <img src="https://cloud.githubusercontent.com/assets/5456665/17822364/940bded8-6678-11e6-9603-b84d75bccec1.gif" /> </td></tr></table>
+<table><tr><td> <img src="https://github.com/BNK-Trolling-Group/UPGit.Suckmy.Site/blob/master/res/images/UPGit-Instructions.gif?raw=true" /> </td></tr></table>
 
 ##### Advanced Usage
 
